@@ -1,0 +1,23 @@
+.table-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.ag-header-group-cell {
+  font-size: 30px;
+  color: #b5b5b5;
+  margin-left: 80px;
+}
+
+.ag-cell-label-container {
+  height: 100%;
+}
+
+.ag-header-cell-text {
+  margin-left: 50px;
+  font-size: 15px;
+}
+
+.chart-button {
+  margin-left: -70px;
+}
