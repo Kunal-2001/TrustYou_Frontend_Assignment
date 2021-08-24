@@ -1,16 +1,16 @@
 import React from "react";
 import { AgChartsReact } from "ag-charts-react";
 
-export default function PieChart({ data, pieSeries }) {
+export default function LineChart({ data, lineSeries }) {
   const options = {
     data,
     title: {
       text: `Reviews frequency by ${Object.keys(data[0])[0]} category`,
     },
-    series: pieSeries,
+    series: lineSeries,
   };
   return (
-    <div style={{ marginTop: "-20px" }}>
+    <div>
       <AgChartsReact options={options} />
     </div>
   );

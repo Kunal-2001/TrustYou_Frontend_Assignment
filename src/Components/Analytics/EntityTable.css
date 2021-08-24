@@ -1,12 +1,15 @@
 .table-container {
   display: flex;
   flex-direction: row;
+  margin-left: 50px;
+  margin-right: 20px;
 }
 
 .ag-header-group-cell {
   font-size: 30px;
-  color: #b5b5b5;
-  margin-left: 80px;
+  color: #542280;
+  margin-left: 60px;
+  pointer-events: none;
 }
 
 .ag-cell-label-container {
@@ -20,4 +23,9 @@
 
 .chart-button {
   margin-left: -70px;
+}
+
+.graph-icon {
+  width: 30px;
+  height: 40px;
 }

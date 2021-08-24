@@ -1,0 +1,8 @@
+.review-dialog {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.review-dialog {
+  background: rgb(231, 231, 231);
+}

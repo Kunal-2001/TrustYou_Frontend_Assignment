@@ -1,0 +1,14 @@
+.user-container:nth-child(even) {
+  margin-left: 110px;
+}
+.user-container:nth-child(odd) {
+  margin-left: 5px;
+}
+
+.card-header {
+  display: flex;
+}
+
+.ratingBox {
+  margin-left: 20px;
+}
